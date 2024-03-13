@@ -1,0 +1,64 @@
+body {
+  height: 5000px;
+}
+.box1 {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: bisque;
+  margin-left: 200px;
+  margin-top: 50px;
+  border: 2px solid greenyellow;
+}
+.boxred {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: 550px;
+  left: 250px;
+}
+.boxbr {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(210, 193, 70);
+  position: absolute;
+  bottom: 620px;
+  left: 295px;
+  z-index: 40px;
+}
+.boxyl {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 675px;
+  left: 330px;
+}
+.boxgr {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  bottom: 500px;
+  left: 490px;
+}
+.boxor {
+  width: 100px;
+  height: 100px;
+  position: sticky;
+  top:10vh;
+  background-color: orange;
+  
+  left: 700px;
+}
+.boxrr {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: 370px;
+  right: 0px;
+  position: fixed;
+  overflow: hidden;
+}
