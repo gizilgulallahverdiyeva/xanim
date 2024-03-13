@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  width: 80%;
+}
+.box1 {
+  background-color: black;
+  width: 1300px;
+  height: 60px;
+  margin-left: 250px;
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+}
+.text {
+  margin-left: 20px;
+  font-size: 19px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: rgba(157, 152, 152, 0.902);
+}
+.leftbox {
+  display: inline-block;
+  margin-right: 20px;
+}
+.rightbox {
+  display: inline-block;
+}
+#text1 {
+  border: 1px solid rgb(229, 151, 5);
+  padding: 9px;
+  color: rgb(229, 151, 5);
+  background-color: rgba(141, 140, 140, 0.436);
+}
+#text2 {
+  background-color: rgba(141, 140, 140, 0.347);
+  padding: 9px;
+  border-radius: 1px;
+}
+#text3 {
+  background-color: rgb(146, 153, 159);
+  padding: 9px;
+  border-radius: 3px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+}
